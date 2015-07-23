@@ -1,0 +1,26 @@
+fi 2 1 -1
+$l$for( var i=$1$ ; i<$2$ ; ++i)$n$$l${$n$$l$	$n$$l$}
+fi 1 1 -1
+$l$for( var i=0 ; i<$1$ ; ++i)$n$$l${$n$$l$	$n$$l$}
+fj 2 1 -1
+$l$for( var j=$1$ ; j<$2$ ; ++j)$n$$l${$n$$l$	$n$$l$}
+fj 1 1 -1
+$l$for( var j=0 ; j<$1$ ; ++j)$n$$l${$n$$l$	$n$$l$}
+f 3 1 -1
+$l$for( var $1$=$2$ ; $1$<$3$ ; ++$1$)$n$$l${$n$$l$	$n$$l$}
+f 2 1 -1
+$l$for( var $1$=0 ; $1$<$2$ ; ++$1$)$n$$l${$n$$l$	$n$$l$}
+f 1 1 -1
+$l$for( var i=0 ; i<$1$ ; ++i)$n$$l${$n$$l$	$n$$l$}
+dw 0 -3 0
+$l$document.write("");
+i 1 1 -1
+$l$if( $1$ )$n$$l${$n$$l$	$n$$l$}
+in 0 -1 0
+$l$#include ""
+w 1 1 -1
+$l$while( $1$ )$n$$l${$n$$l$	$n$$l$}
+e 1 1 -5
+$l$if( $1$ )$n$$l${$n$$l$	$n$$l$}$n$$l$else$n$$l${$n$$l$	$n$$l$}
+fn 1 1 -1
+$l$function $1$ () $n$$l${$n$$l$	$n$$l$};
